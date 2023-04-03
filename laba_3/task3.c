@@ -33,4 +33,8 @@ int main () {
     }
     printf("0 1 2 3 4 5 6 7 8 9\n\n");
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 22d1822b8a0b8dc1f1a24059cdfbd8eb0ebcc5a7

@@ -1,0 +1,1 @@
+void filling(char* str1, int *counter);

@@ -18,3 +18,10 @@ char* reading()
   str = realloc(str, sizeof(char) * (10*n + strlen(str + 10 * n) + 1));     
   return str;
 }
+int main() {
+  char *l = reading();
+  if (l != NULL) {
+    printf("%s\n", l);
+    free(l);
+  }
+}
